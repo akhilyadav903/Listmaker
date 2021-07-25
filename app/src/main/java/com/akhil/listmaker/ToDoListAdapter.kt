@@ -10,6 +10,7 @@ class ToDoListAdapter: RecyclerView.Adapter<ToDoListViewHolder>() {
         val View - LayoutInflater.from(parent.context)
         .inflate(R.layout.todo_list_view_holder, parent, false)
         return TodoListsViewHolder(View)
+
     }
 
     override fun onBindViewHolder(holder: ToDoListViewHolder, position: Int) {
