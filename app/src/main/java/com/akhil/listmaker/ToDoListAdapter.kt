@@ -13,8 +13,6 @@ class ToDoListAdapter: RecyclerView.Adapter<ToDoListViewHolder>() {
         return TodoListsViewHolder(View)
 
 
-
-
     }
 
     override fun onBindViewHolder(holder: ToDoListViewHolder, position: Int) {

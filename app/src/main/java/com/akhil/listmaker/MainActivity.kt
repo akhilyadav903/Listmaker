@@ -32,7 +32,7 @@ private lateinit var binding: ActivityMainBinding
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         todolistRecyclerView = findViewById(R.id.lists_recyclerview)
-        todolistRecyclerView.layoutManager = LinearLayoutManager( context: this)
+        todolistRecyclerView.layoutManager = LinearLayoutManager(this)
         todolistRecyclerView.adapter = ToDoListAdapter()
 
         binding.fab.setOnClickListener { view ->
